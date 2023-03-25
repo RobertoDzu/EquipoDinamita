@@ -4,10 +4,10 @@ public class PrubaSistemaNomina {
 	public static void main(String[] args) 
 	{
 		// crea objetos de las subclases
-		Salario empleadoAsalariado = new Salario("Jair", "olivarse", "19530658", 800.00);
-		EmpleadoPorHoras empleadoPorHoras = new EmpleadoPorHoras("luis", "Mendez", "19530659", 16.75, 40);
-		  EmpleadoComision empleadoPorComision = new EmpleadoComision("Ricardo", "versunza", "19530660", 10000, .06);
-		  Comision empleadoBaseMasComision = new Comision ("bob", "lewis", "444-444-444", 5000, .04, 300);
+		Salario empleadoAsalariado = new Salario("Roberto", "Dzul", "19530658", 800.00);
+		EmpleadoPorHoras empleadoPorHoras = new EmpleadoPorHoras("Matin", "Gil", "19530659", 16.75, 40);
+		  EmpleadoComision empleadoPorComision = new EmpleadoComision("Eduardo", "Roman", "19530660", 10000, .06);
+		  Comision empleadoBaseMasComision = new Comision ("Carlos", "Chin", "444-444-444", 5000, .04, 300);
 		
 		  	System.out.println("Empleados procesados por separado:");
 		
@@ -63,3 +63,4 @@ public class PrubaSistemaNomina {
 	
 
 }
+
